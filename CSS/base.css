@@ -1,0 +1,307 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+ul, ol {
+    list-style: none;				/*清除列表风格*/
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止多行文本框拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;			/*合并外边线*/
+}
+
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";	/*宋体，Unicode，统一码*/
+    color: #666;
+    background: #fff
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+    /*site-nav*//*site-nav*//*site-nav*/
+    /*site-nav*//*site-nav*//*site-nav*/
+    /*site-nav*//*site-nav*//*site-nav*/
+    /*site-nav*//*site-nav*//*site-nav*/
+    /*site-nav*//*site-nav*//*site-nav*/
+    /*site-nav*//*site-nav*//*site-nav*/
+    /*site-nav*//*site-nav*//*site-nav*/
+
+.time{
+    text-indent:2em;
+}
+.site-nav{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background-color: #f1f1f1;
+}
+.site-nav-send{
+    position: relative;
+    padding:0px 25px 0px 10px;
+}
+.site-nav-send:hover{
+    background-color: #fff;
+}
+.site-nav-send i{
+    position: absolute;
+    top:12px;
+    right:8px;
+    width: 15px;
+    height: 7px;
+    font:13px/15px "consolas";
+    overflow: hidden;
+}
+.site-nav-send s{
+    position: absolute;
+    top:-7px;
+}
+.site-nav-r li{
+    padding:0 10px;
+    float: left;
+}
+                                    /*#main img{*/
+                                        /*width:300px;*/
+                                        /*height: 400px;*/
+                                        /*position: absolute;*/
+                                        /*border:5px green double;*/
+                                    /*}*/
+                                    /*#main img:nth-child(1){*/
+                                        /*transform: translateZ(500px);*/
+                                    /*}*/
+                                    /*#main img:nth-child(2){*/
+                                        /*transform: rotateY(40deg) translateZ(500px);*/
+                                    /*}*/
+                                    /*#main img:nth-child(3){*/
+                                        /*transform: rotateY(80deg) translatez(500px);*/
+                                    /*}*/
+                                    /*#main img:nth-child(4){*/
+                                        /*transform: rotateY(120deg) translatez(500px);*/
+                                    /*}*/
+                                    /*#main img:nth-child(5){*/
+                                        /*transform: rotateY(160deg) translatez(500px);*/
+                                    /*}*/
+                                    /*#main img:nth-child(6){*/
+                                        /*transform: rotateY(200deg) translatez(500px);*/
+                                    /*}*/
+                                    /*#main img:nth-child(7){*/
+                                        /*transform: rotateY(240deg) translatez(500px);*/
+                                    /*}*/
+                                    /*#main img:nth-child(8){*/
+                                        /*transform: rotateY(280deg) translatez(500px);*/
+                                    /*}*/
+                                    /*#main img:nth-child(9){*/
+                                        /*transform: rotateY(320deg) translatez(500px);*/
+                                    /*}*/
+                                    /*#main{*/
+                                        /*background-color: #fff;*/
+                                        /*margin: 100px auto;!*让父元素居中*!*/
+                                        /*width: 300px;*/
+                                        /*height: 400px;*/
+                                        /*!*声明一个3D空间*!*/
+                                        /*transform-style: preserve-3d;*/
+                                        /*transform: rotateX(-10deg);*/
+                                        /*animation-name: animate;*/
+                                        /*animation-duration: 10s; !*动画执行次数*!*/
+                                        /*animation-iteration-count: infinite; !*动画持续时间：无限 *!*/
+                                        /*animation-timing-function: linear;*/
+                                        /*position: relative;*/
+                                    /*}*/
+
+                                    /*!*定义一个动画*!*/
+                                    /*@keyframes animate {*/
+                                        /*0%{*/
+                                            /*transform: rotateX(-10deg) rotateY(0deg) ;*/
+                                        /*}*/
+                                        /*100%{*/
+                                            /*transform: rotateX(-10deg) rotateY(360deg) ;*/
+                                        /*}*/
+                                    /*}*/
+                                    /*.big{*/
+                                        /*background-color: #FFB6C1;*/
+                                    /*}*/
+
+
+/*
+gerenjianjie
+gerenjianjie
+gerenjianjie
+gerenjianjie
+gerenjianjie
+gerenjianjie
+gerenjianjie
+*/
+.top{
+    width: 1336px;
+    height: 75px;
+    padding:0 20px;
+}
+.top .frr{
+    padding:50px 30px 0px 50px;
+    float: right;
+}
+.zhongshang{
+    text-align:center;
+    font:700 40px/50px 微软雅黑;
+}
+.zhongshang-x{
+    height: 280px;
+}
+.zhongshang-x .zhongshang-x-l{
+    float: left;
+    height:260px;
+    width: 400px;
+    padding:0 20px;
+    font:600 15px/40px 微软雅黑;
+}
+.zhongshang-x .zhongshang-x-c{
+    float: left;
+    height:260px;
+    width: 400px;
+    font:600 15px/40px 微软雅黑;
+}
+.zhongshang-x .zhongshang-x-r{
+    float:right;
+    padding:5px 50px;
+
+}
+.zhong,.zhong1,.zhong2,.zhong3,.zhong4,.zhong5,.zhong6{
+    background-color:greenyellow;
+    font:15px/40px 微软雅黑;
+    padding:0 20px;
+}
+.zhong-0,.zhong-1,.zhong-2,.zhong-3,.zhong-4,.zhong-5,.zhong-6{
+    font:15px/40px 微软雅黑;
+    padding:0 20px;
+}
+/*
+带有定时器的无缝轮播图
+带有定时器的无缝轮播图
+带有定时器的无缝轮播图
+带有定时器的无缝轮播图
+带有定时器的无缝轮播图
+带有定时器的无缝轮播图
+
+
+*/
+
+.all{
+    width:500px;
+    height:500px;
+    padding:7px;
+    border:1px solid #ccc;
+    margin:10px 10px;
+    position:relative;
+}
+.screen{
+    width:500px;
+    height:500px;
+    overflow:hidden;
+    position:relative;
+}
+.screen li{ width:500px; height:500px; overflow:hidden; float:left;}
+.screen ul{ position:absolute; left:0; top:0px; width:3000px;}
+.all ol{ position:absolute; right:10px; bottom:10px; line-height:20px; text-align:center;}
+.all ol li{ float:left; width:20px; height:20px; background:#fff; border:1px solid #ccc; margin-left:10px; cursor:pointer;}
+.all ol li.current{ background:yellow;}
+
+#arr {display: none;}
+#arr span{ width:40px; height:40px; position:absolute; left:5px; top:50%; margin-top:-20px; background:#000; cursor:pointer; line-height:40px; text-align:center; font-weight:bold; font-family:'黑体'; font-size:30px; color:#fff; opacity:0.3; border:1px solid #fff;}
+#arr #right{right:5px; left:auto;}

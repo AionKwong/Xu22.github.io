@@ -1,0 +1,10 @@
+.nav{
+    height:30px;
+    background: #eee;
+}
+.nav .left{
+    height: 30px;
+    line-height: 30px;
+    margin:0 25px 0 40px;
+    background-color: #f1f1f1;
+}
